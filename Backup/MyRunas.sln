@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "runasdll", "runasdll\runasdll.vcproj", "{8227E258-9DE4-4349-A5F8-61F3BEF1ED80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myrunas", "myrunas\myrunas.vcproj", "{C7D633B1-468C-48A1-9E88-96DF33D8C702}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8227E258-9DE4-4349-A5F8-61F3BEF1ED80}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8227E258-9DE4-4349-A5F8-61F3BEF1ED80}.Debug|Win32.Build.0 = Debug|Win32
+		{8227E258-9DE4-4349-A5F8-61F3BEF1ED80}.Release|Win32.ActiveCfg = Release|Win32
+		{8227E258-9DE4-4349-A5F8-61F3BEF1ED80}.Release|Win32.Build.0 = Release|Win32
+		{C7D633B1-468C-48A1-9E88-96DF33D8C702}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C7D633B1-468C-48A1-9E88-96DF33D8C702}.Debug|Win32.Build.0 = Debug|Win32
+		{C7D633B1-468C-48A1-9E88-96DF33D8C702}.Release|Win32.ActiveCfg = Release|Win32
+		{C7D633B1-468C-48A1-9E88-96DF33D8C702}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

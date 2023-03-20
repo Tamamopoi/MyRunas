@@ -1,0 +1,2 @@
+LIBRARY	"runasdll"
+EXPORTS test123

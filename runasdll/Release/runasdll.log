@@ -1,0 +1,15 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+C:\Users\poi\Desktop\AEStest\source\runasdll\dllmain.cpp(29,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\poi\Desktop\AEStest\source\runasdll\dllmain.cpp(220,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\poi\Desktop\AEStest\source\runasdll\dllmain.cpp(222,7): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+C:\Users\poi\Desktop\AEStest\source\runasdll\dllmain.cpp(344,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  runasdll.cpp
+    正在创建库 C:\Users\poi\Desktop\AEStest\source\Release\RunasDll.lib 和对象 C:\Users\poi\Desktop\AEStest\source\Release\RunasDll.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 318 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+detours.lib(detours.obj) : warning LNK4099: 未找到 PDB“”(使用“detours.lib(detours.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+detours.lib(disasm.obj) : warning LNK4099: 未找到 PDB“detours.pdb”(使用“detours.lib(disasm.obj)”或在“C:\Users\poi\Desktop\AEStest\source\Release\detours.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  runasdll.vcxproj -> C:\Users\poi\Desktop\AEStest\source\Release\RunasDll.dll

@@ -1,0 +1,276 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30148.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x003BD1C0 -il C:\\Users\\poi\\AppData\\Local\\Temp\\_CL_617fd427ast -typedil -f dllmain.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930148 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -GF -Og -Ot -Oi -ltcg -DCODE_ANALYSIS -DWIN32 -DNDEBUG -D_WINDOWS -D_USRDLL -DRUNASDLL_EXPORTS -D_WINDLL -D_MBCS -EHs -D_CPPUNWIND -EHc -MT -clrNoPureCRT -D_MT -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -FoRelease\\dllmain.obj -FdRelease\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\poi\\Desktop\\AEStest\\source\\runasdll -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\OpenSSL-Win32\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/poi/desktop/aestest/source/runasdll/dllmain.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "b9ae42a734e65fb5769db734d1f4c37a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/poi/desktop/aestest/source/runasdll/stdafx.h"
+          },
+          "hashes": {
+            "md5": "c527031eb782816386f7c78c392b151a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/poi/desktop/aestest/source/runasdll/targetver.h"
+          },
+          "hashes": {
+            "md5": "ca51ee3dffa9aedc7e69fe676c85472c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/poi/desktop/aestest/source/runasdll/detours.h"
+          },
+          "hashes": {
+            "md5": "7327bd239054ad3b24163d61a76c3e4f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/aes.h"
+          },
+          "hashes": {
+            "md5": "29feda3275fa3b5175b2a2ccbe5ef431"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/macros.h"
+          },
+          "hashes": {
+            "md5": "aac0a29aa4d23fe356755259969caf3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/opensslconf.h"
+          },
+          "hashes": {
+            "md5": "fd40f7ef32732baa1d490b98fce09ca3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/configuration.h"
+          },
+          "hashes": {
+            "md5": "25a8d05c4086a3a86069b4a5a0d5f903"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/opensslv.h"
+          },
+          "hashes": {
+            "md5": "1376defd3a8e0f004c77e336eb290edc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/evp.h"
+          },
+          "hashes": {
+            "md5": "855d63eba047f6259b41925928810480"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/types.h"
+          },
+          "hashes": {
+            "md5": "851b5e34528db7d09efd7a6f69e6b1d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/e_os2.h"
+          },
+          "hashes": {
+            "md5": "69bced7e7222c6ba1fb2eb89f93764a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/safestack.h"
+          },
+          "hashes": {
+            "md5": "8b9fb29fdf87b90f6081d7264bca9f77"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/stack.h"
+          },
+          "hashes": {
+            "md5": "b761407dfc9e6e3f34a26ac04dec4731"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/core.h"
+          },
+          "hashes": {
+            "md5": "f9d3fb764ee6cc3b1383dcf21d307526"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/core_dispatch.h"
+          },
+          "hashes": {
+            "md5": "f2cb5bc7ab70c810bd11988d94956a1c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/symhacks.h"
+          },
+          "hashes": {
+            "md5": "ae9b60338a847f17036b36fa51eaf846"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/bio.h"
+          },
+          "hashes": {
+            "md5": "5d2ce2e52a373616a65e8b87f923f952"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/crypto.h"
+          },
+          "hashes": {
+            "md5": "adba8297cd249258f7cf6934d9dfc88c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/cryptoerr.h"
+          },
+          "hashes": {
+            "md5": "5ae667b4d401ed84ef0982ced78caef9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/cryptoerr_legacy.h"
+          },
+          "hashes": {
+            "md5": "b4e5d2b28187c66106b651e01ca95395"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/bioerr.h"
+          },
+          "hashes": {
+            "md5": "cfb4f6449e7243a7e0ea82ddb6e10bca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/evperr.h"
+          },
+          "hashes": {
+            "md5": "b4d10132ab6bbd939e84c287a2a3bc8c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/params.h"
+          },
+          "hashes": {
+            "md5": "3ce73cf8842b4fbdb20233832aae6db5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/bn.h"
+          },
+          "hashes": {
+            "md5": "1bb21f3087bf324a8308f0d10e9a8628"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/bnerr.h"
+          },
+          "hashes": {
+            "md5": "3eea190d76342a22d62448c58bf66622"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/objects.h"
+          },
+          "hashes": {
+            "md5": "d16c8381b9ad915c8305570472ceb127"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/obj_mac.h"
+          },
+          "hashes": {
+            "md5": "f6aa841cba843dd9a28b7bb2393f791c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/asn1.h"
+          },
+          "hashes": {
+            "md5": "6f063af3e5ff96116251d3122af64ead"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/asn1err.h"
+          },
+          "hashes": {
+            "md5": "458bed4a0522413123382ef970a97ad9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/openssl-win32/include/openssl/objectserr.h"
+          },
+          "hashes": {
+            "md5": "7768762e743f132b3978a38a00a3c6ec"
+          }
+        }
+      ]
+    }
+  ]
+}
