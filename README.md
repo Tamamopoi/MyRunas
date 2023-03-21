@@ -3,7 +3,7 @@ Hook Windows自带的runas，用于自动输密码。
 
 只适用于AD域环境。大概。
 
-配合[还没上传的applist，预计23/03/22前上传](https://127.0.0.1)，可以做到AD域环境下，只要把安装包丢到指定共享目录，用户打开applist就可以直接点击安装。
+配合[Tamamopoi/AppList](https://github.com/Tamamopoi/AppList)，可以做到AD域环境下，只要把安装包丢到指定共享目录，用户打开applist就可以直接点击安装。
 
 applist就一win窗口程序，读取共享目录，根据共享文件自动绘制对应的按钮等控件。点击后调用myrunas运行对应程序。
 
